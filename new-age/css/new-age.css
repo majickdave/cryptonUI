@@ -34,11 +34,13 @@ h3,
 h4,
 h5,
 h6 {
+  color: white;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px; }
 
 p {
+  color: white;
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px; }
@@ -48,6 +50,9 @@ section {
   section h2 {
     font-size: 50px; }
 
+#portfolio{
+
+}
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -58,7 +63,7 @@ section {
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
-    color: white;
+    color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
@@ -119,8 +124,8 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: rgb(255, 146, 132);
-  background: -webkit-linear-gradient(right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-  background: linear-gradient(right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
+  background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+  background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
@@ -189,8 +194,7 @@ section.features .device-container {
       margin-bottom: 0; } }
 
 section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin: auto;
   text-align: center; }
   section.features .feature-item h3 {
     font-size: 30px; }
@@ -198,8 +202,9 @@ section.features .feature-item {
     font-size: 80px;
     display: block;
     margin-bottom: 15px;
-    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: linear-gradient(to left, #7b4397, #dc2430);
+    background: white;
+    /*background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    background: linear-gradient(to left, #7b4397, #dc2430);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
@@ -250,17 +255,29 @@ section.contact {
       color: white;
       border-radius: 100%; }
     section.contact ul.list-social li.social-twitter a {
-      background-color: #1da1f2; }
+      background-color-color: transparent; }
       section.contact ul.list-social li.social-twitter a:hover {
-        background-color: #0d95e8; }
+        background-color: rgb(255, 146, 132);
+        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
     section.contact ul.list-social li.social-facebook a {
-      background-color: #3b5998; }
+      background-color-color: transparent; }
       section.contact ul.list-social li.social-facebook a:hover {
-        background-color: #344e86; }
-    section.contact ul.list-social li.social-google-plus a {
-      background-color: #dd4b39; }
-      section.contact ul.list-social li.social-google-plus a:hover {
-        background-color: #d73925; }
+        background-color: rgb(255, 146, 132);
+        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+    section.contact ul.list-social li.social-instagram a {
+      background-color-color: transparent; }
+      section.contact ul.list-social li.social-instagram a:hover {
+        background-color: rgb(255, 146, 132);
+        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+        section.contact ul.list-social li.social-angellist a {
+          background-color-color: transparent; }
+          section.contact ul.list-social li.social-angellist a:hover {
+            background-color: rgb(255, 146, 132);
+            background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+            background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
 
 footer {
   padding: 25px 0;
@@ -279,18 +296,28 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
-
+  background: #f2f2f2;
+}
+.col-slide {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .bg-gradient1 {
   background: rgb(255, 146, 132);
-  background: -webkit-linear-gradient(left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-  background: linear-gradient(left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
+  background: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+  background: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+}
 
 .bg-gradient2 {
-background: -webkit-linear-gradient(right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-background: linear-gradient(right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
+  background: rgb(255, 146, 132);
+background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
+
+.bg-gradient3 {
+  background: rgb(255, 146, 132);
+background: -webkit-linear-gradient(right, rgb(255, 146, 132), rgba(143, 118, 147, 0));
+background: linear-gradient(right , rgb(255, 146, 132), rgba(143, 118, 147, 0)); }
 
 .text-primary {
   color: #fdcc52; }
@@ -317,3 +344,31 @@ background: linear-gradient(right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 14
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
+
+.logo {
+      color: white;
+      font-size: 100px;
+      padding: 50px
+}
+
+.logo-small {
+      color: white;
+      font-size: 50px;
+      padding: 50px
+}
+
+.portfolio {
+  margin: auto;
+  padding: 50px
+}
+
+.copyright {
+  margin-bottom: auto;
+  padding-top: 50px
+
+}
+
+.demo {
+
+  margin: auto;
+}
