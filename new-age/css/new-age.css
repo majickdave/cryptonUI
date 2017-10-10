@@ -123,9 +123,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: rgb(255, 146, 132);
-  background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-  background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); }
+}
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
@@ -255,29 +253,29 @@ section.contact {
       color: white;
       border-radius: 100%; }
     section.contact ul.list-social li.social-twitter a {
-      background-color-color: transparent; }
+      background-color: transparent; }
       section.contact ul.list-social li.social-twitter a:hover {
-        background-color: rgb(255, 146, 132);
-        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+        background: rgb(143, 118, 147);
+        background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
     section.contact ul.list-social li.social-facebook a {
-      background-color-color: transparent; }
+      background-color: transparent; }
       section.contact ul.list-social li.social-facebook a:hover {
-        background-color: rgb(255, 146, 132);
-        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+        background: rgb(143, 118, 147);
+        background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
     section.contact ul.list-social li.social-instagram a {
-      background-color-color: transparent; }
+      background-color: transparent; }
       section.contact ul.list-social li.social-instagram a:hover {
-        background-color: rgb(255, 146, 132);
-        background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-        background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+        background: rgb(143, 118, 147);
+        background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+        background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
         section.contact ul.list-social li.social-angellist a {
-          background-color-color: transparent; }
+          background-color: transparent; }
           section.contact ul.list-social li.social-angellist a:hover {
-            background-color: rgb(255, 146, 132);
-            background-color: -webkit-linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
-            background-color: linear-gradient(top left, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
+            background: rgb(143, 118, 147);
+            background: -webkit-linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147));
+            background: linear-gradient(bottom right, rgb(255, 146, 132), #d14d61, rgb(143, 118, 147)); } }
 
 footer {
   padding: 25px 0;
@@ -363,8 +361,8 @@ background: linear-gradient(right , rgb(255, 146, 132), rgba(143, 118, 147, 0));
 }
 
 .copyright {
-  margin-bottom: auto;
-  padding-top: 50px
+  padding: 50px;
+  text-align: center;
 
 }
 
